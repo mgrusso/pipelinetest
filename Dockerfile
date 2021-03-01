@@ -1,8 +1,8 @@
 FROM debian:stable
 
-ARG BUILD_DATE
-ARG VERSION
-ARG UNIFI_VERSION
+ARG BUILD_DATE="2021-03-01"
+ARG VERSION="0.1"
+ARG UNIFI_VERSION="6.0.45-14358-1"
 LABEL build_version="mgrusso v: ${VERSION} Build-date: ${BUILD_DATE}" 
 LABEL maintainer "mgrusso"
 
