@@ -8,7 +8,9 @@ node {
 
     stage('build image') {
       steps{
-        app = docker.build "mgrusso/unificontroller"
+        script {
+          app = docker.build "mgrusso/unificontroller"
+        }
       }
     }
 }
