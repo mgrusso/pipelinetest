@@ -1,6 +1,6 @@
 /* Requires the Docker Pipeline plugin */
 pipeline {
-    agent { label 'docker-agent-go' }
+    agent { label 'docker-agent-alpine' }
     stages {
         stage('build') {
             steps {
