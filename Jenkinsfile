@@ -5,6 +5,7 @@ pipeline {
             image 'golang:1.19.1-alpine'
             label 'docker-capable' 
         }
+    }
     stages {
         stage('build') {
             steps {
